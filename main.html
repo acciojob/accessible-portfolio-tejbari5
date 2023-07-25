@@ -1,16 +1,55 @@
 <!DOCTYPE html>
-
-<html>
-
-<head>
-	<link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
-</body>
-
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accessible Portfolio</title>
+  </head>
+  <body style="font-family: Verdana, Geneva, Tahoma, sans-serif">
+    <nav role="navigation">
+      <a
+        href="https://www.linkedin.com/in/tej-bari-0227b4278/"
+        aria-label="linkedin page"
+        role="link"
+        >LinkedIn</a
+      >
+    </nav>
+    <img
+      src="https://media.licdn.com/dms/image/D5635AQGaJX7_53PN2w/profile-framedphoto-shrink_200_200/0/1685449281293?e=1690869600&v=beta&t=sJI6gqANuPzDPVLBv27w7oEIxHRhYtoWUIxrb0XACcQ"
+      alt="image"
+      height="200"
+      role="img"
+    />
+    <h1 role="heading">Tej Bari</h1>
+    <section id="skills">
+      <h1 role="heading">Skills</h1>
+      <ol role="list">
+        <li role="listitem">
+          Aenean id magna ac mauris dapibus mattis egestas et felis.
+        </li>
+        <li role="listitem">
+          Morbi eget ante porttitor velit congue hendrerit sed non sem.
+        </li>
+        <li role="listitem">Integer pulvinar lacus a sem ornare posuere.</li>
+        <li role="listitem">
+          Nunc sagittis leo ut nisl vestibulum, a porttitor libero tincidunt.
+        </li>
+      </ol>
+    </section>
+    <section id="projects">
+      <h1 role="heading">Projects</h1>
+      <ul role="list">
+        <li role="listitem">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </li>
+        <li role="listitem">
+          Praesent posuere quam eu nisi facilisis sagittis.
+        </li>
+        <li role="listitem">Fusce quis urna ac felis rutrum dignissim.</li>
+        <li role="listitem">
+          Vestibulum sit amet urna vehicula, finibus odio id, consequat nisi.
+        </li>
+      </ul>
+    </section>
+  </body>
 </html>
